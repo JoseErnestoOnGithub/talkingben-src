@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gw_font_size_item_text">12sp</dimen>
+    <dimen name="gw_font_size_reward">15sp</dimen>
+    <dimen name="gw_font_size_reward_amount">18sp</dimen>
+    <dimen name="gw_font_size_reward_dialog">25sp</dimen>
+    <dimen name="gw_font_size_video_title">25sp</dimen>
+    <dimen name="gw_footer_height">30dp</dimen>
+    <dimen name="gw_header_icon_close_width">40dp</dimen>
+    <dimen name="gw_header_title_text_size">38sp</dimen>
+    <dimen name="gw_tile_padding">5px</dimen>
+    <dimen name="update_app_text_update_available_size">22dp</dimen>
+</resources>

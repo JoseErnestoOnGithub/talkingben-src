@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">تحتوي هذه اللعبة على مشتريات داخل التطبيق. يمكنك\nطلب مصادقة لعمليات الشراء في إعدادات متجر التطبيقات.</string>
+</resources>

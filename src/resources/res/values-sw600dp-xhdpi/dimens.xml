@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gw_external_cta_text_size">38sp</dimen>
+    <dimen name="gw_external_title">24sp</dimen>
+    <dimen name="gw_font_size_item_text">30sp</dimen>
+    <dimen name="gw_font_size_reward">35sp</dimen>
+    <dimen name="gw_font_size_reward_dialog">40sp</dimen>
+    <dimen name="gw_font_size_video_title">40sp</dimen>
+    <dimen name="gw_header_icon_close_width">70dp</dimen>
+    <dimen name="gw_header_title_text_size">64sp</dimen>
+    <dimen name="gw_video_cta_ext_left">90dp</dimen>
+</resources>

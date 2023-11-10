@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/colorBlack" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/layoutHeader" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/item_header"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/colorWhite" android:ellipsize="end" android:gravity="center" android:id="@+id/tvTitle" android:background="@color/colorGrayDark" android:padding="8dp" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/layoutHeader"/>
+    <FrameLayout android:id="@+id/bannerContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:splitMotionEvents="false" android:paddingEnd="8dp" app:layout_constraintBottom_toTopOf="@+id/bannerContainer" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

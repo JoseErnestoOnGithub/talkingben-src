@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/menu_click_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/JWView.Menu.Settings">
+        <RelativeLayout android:id="@+id/menu_top_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/jw_menu_horizontal_margin" android:paddingEnd="@dimen/jw_menu_horizontal_margin">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/menu_back_btn" android:padding="8dp" android:src="@drawable/ic_jw_arrow_left" android:contentDescription="@string/jwplayer_back" app:srcCompat="@drawable/ic_jw_arrow_left" style="@style/JWIcon.MenuBack"/>
+            <TextView android:id="@+id/menu_top_bar_option_selected" android:layout_centerInParent="true" style="@style/JWText.MenuTitle"/>
+            <TextView android:id="@+id/menu_top_bar_done" android:text="@string/jwplayer_done" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/JWText.MenuDone"/>
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView android:id="@+id/menu_scrollview_submenu_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="@dimen/jw_menu_list_bottom_margin" android:layout_weight="1" android:paddingStart="@dimen/jw_menu_horizontal_margin" android:paddingEnd="@dimen/jw_menu_horizontal_margin">
+            <LinearLayout android:orientation="vertical" android:id="@+id/menu_submenu_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.jwplayer.ui.views.QualitySubmenuView android:id="@+id/submenu_quality_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/submenu_audio_captions_fullscreen" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/guidelinecenter" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5"/>
+                    <TextView android:id="@+id/menu_submenu_audio_text" android:visibility="gone" android:text="@string/jwplayer_audio_tracks" android:paddingStart="14dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/JWText.MenuSubtitle"/>
+                    <com.jwplayer.ui.views.AudiotracksSubmenuView android:gravity="left" android:id="@+id/submenu_audiotracks_view" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@+id/guidelinecenter" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/menu_submenu_audio_text" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.5"/>
+                    <TextView android:id="@+id/menu_submenu_caption_text" android:visibility="gone" android:text="@string/jwplayer_subtitles" android:paddingStart="14dp" app:layout_constraintStart_toStartOf="@+id/guidelinecenter" app:layout_constraintTop_toTopOf="0" style="@style/JWText.MenuSubtitle"/>
+                    <com.jwplayer.ui.views.CaptionsSubmenuView android:id="@+id/submenu_captions_view" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/guidelinecenter" app:layout_constraintTop_toBottomOf="@+id/menu_submenu_caption_text" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.5"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.jwplayer.ui.views.PlaybackRatesSubmenuView android:id="@+id/submenu_playback_rates_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/menu_mainmenu_option_audio_subtitles" android:visibility="gone" android:layout_marginTop="@dimen/jw_menu_item_vertical_margin" android:layout_marginBottom="@dimen/jw_menu_item_vertical_margin" style="@style/JWView.MenuOptionAudioSubs">
+                    <ImageView android:src="@drawable/ic_jw_captions_off" android:contentDescription="@string/jwplayer_audio_and_subtitles" android:layout_marginEnd="@dimen/jw_menu_item_icon_right_margin" app:srcCompat="@drawable/ic_jw_captions_off" style="@style/JWIcon.MenuOption"/>
+                    <TextView android:layout_gravity="center_vertical" android:text="@string/jwplayer_audio_and_subtitles" android:layout_marginEnd="@dimen/jw_menu_item_text_right_margin" style="@style/JWText.MenuOptionLabel"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/menu_mainmenu_option_playback_rate" android:visibility="gone" android:layout_marginTop="@dimen/jw_menu_item_vertical_margin" android:layout_marginBottom="@dimen/jw_menu_item_vertical_margin" style="@style/JWView.MenuOptionRates">
+                    <ImageView android:src="@drawable/ic_jw_playback_rate" android:contentDescription="@string/jwplayer_back" android:layout_marginEnd="@dimen/jw_menu_item_icon_right_margin" app:srcCompat="@drawable/ic_jw_playback_rate" style="@style/JWIcon.MenuOption"/>
+                    <TextView android:layout_gravity="center_vertical" android:text="@string/jwplayer_playback_rates" android:layout_marginEnd="@dimen/jw_menu_item_text_right_margin" style="@style/JWText.MenuOptionLabel"/>
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/menu_mainmenu_option_playback_rate_value" style="@style/JWText.MenuOptionValue"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/menu_mainmenu_option_quality" android:visibility="gone" android:layout_marginTop="@dimen/jw_menu_item_vertical_margin" android:layout_marginBottom="@dimen/jw_menu_item_vertical_margin" style="@style/JWView.MenuOptionQualities">
+                    <ImageView android:src="@drawable/ic_jw_quality_100" android:contentDescription="@string/jwplayer_quality" android:layout_marginEnd="@dimen/jw_menu_item_icon_right_margin" app:srcCompat="@drawable/ic_jw_quality_100" style="@style/JWIcon.MenuOption"/>
+                    <TextView android:layout_gravity="center_vertical" android:text="@string/jwplayer_quality" android:layout_marginEnd="@dimen/jw_menu_item_text_right_margin" style="@style/JWText.MenuOptionLabel"/>
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/menu_mainmenu_option_quality_value" style="@style/JWText.MenuOptionValue"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_marginLeft="@dimen/jw_menu_horizontal_margin" android:layout_marginRight="@dimen/jw_menu_horizontal_margin" style="@style/JWHorizontalDivider.Menu"/>
+        <TextView android:gravity="center" android:id="@+id/menu_close_btn" android:text="@string/jwplayer_close" android:contentDescription="@string/jwplayer_close_menu" android:textAllCaps="false" style="@style/JWText.MenuClose"/>
+    </LinearLayout>
+</merge>

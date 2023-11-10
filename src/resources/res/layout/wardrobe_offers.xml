@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.view.wardrobe.offers.view.WardrobeOffersView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/wardrobeOffersBackground">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/wardrobeOffersHeaderInclude" layout="@layout/wardrobe_header"/>
+        <TextView android:id="@+id/wardrobeOffersHeaderDescriptionTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wardrobe_offers_header_description" style="@style/wardrobeOffersDescriptionBackground"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/wardrobeOffersListViewEmptyViewDownloading" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:gravity="center" android:id="@+id/wardrobeOffersListViewEmptyViewProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true"/>
+            <TextView android:textSize="@dimen/offers_empty_view_text_size" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/offers_empty_view_downloading_text_margin" android:text="@string/offers_downloading_offers" android:layout_above="@+id/wardrobeOffersListViewEmptyViewProgressBar" style="@style/O7ThemeText"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/offers_empty_view_text_size" android:gravity="center" android:id="@+id/wardrobeOffersListViewEmptyViewText" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/offers_no_offers_available" style="@style/O7ThemeText"/>
+        <ListView android:id="@+id/wardrobeOffersListView" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent"/>
+    </LinearLayout>
+</com.outfit7.talkingfriends.gui.view.wardrobe.offers.view.WardrobeOffersView>

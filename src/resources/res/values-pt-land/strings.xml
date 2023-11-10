@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Este jogo contém compras no aplicativo. Você pode exigir uma\nautenticação para compras nas configurações da loja de aplicativos.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_button_size">240</integer>
+    <integer name="imageSharingIconsNumOfIcons">6</integer>
+    <integer name="video_gallery_text_description_lines">6</integer>
+</resources>

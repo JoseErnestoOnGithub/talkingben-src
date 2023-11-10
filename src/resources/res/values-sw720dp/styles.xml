@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialogCloseButtonSw700" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="android:src">@drawable/button_close</item>
+        <item name="android:layout_alignTop">@id/recorderMenuMainLayout</item>
+        <item name="android:layout_alignRight">@id/recorderMenuMainLayout</item>
+    </style>
+    <style name="infoWebButtonClose" parent="@style/infoWebButtonCloseBase">
+        <item name="android:layout_marginTop">@dimen/info_button_close_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/info_button_close_margin_right</item>
+    </style>
+    <style name="infoWebMainViewBackground" parent="">
+        <item name="android:background">@drawable/view_background_popup</item>
+    </style>
+    <style name="infoWebMainViewButtonClose" parent="@style/infoWebButtonCloseBase">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:src">@null</item>
+    </style>
+    <style name="recorderMenuBackgroundSw700" parent="">
+        <item name="android:background">@drawable/view_background_popup</item>
+        <item name="android:layout_width">@dimen/view_width</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+    </style>
+</resources>

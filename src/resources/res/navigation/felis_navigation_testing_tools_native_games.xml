@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:label="@string/debug_options_label" android:id="@+id/nav_native_games" app:startDestination="@+id/nav_example_fragment_1">
+    <fragment android:label="@string/debug_options_button" android:name="com.outfit7.talkingben.fragment.TalkingBenDebugOptionsFragment" android:id="@+id/nav_example_fragment_1"/>
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@+id/linearlayout_notch_holder" android:background="@color/gw_design_header_notch" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/imageview_header_notch" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@+id/constraint_header_fill" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/gw_banner_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/header_content_main" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/gw_header_height" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/linearlayout_notch_holder">
+        <com.outfit7.funnetworks.ui.OutlineTextView android:gravity="start" android:id="@+id/textview_header_title" android:padding="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/gw_header_title" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.05" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/GameWallHeaderTitle"/>
+        <com.outfit7.gamewall.utils.TouchImageView android:id="@+id/imageview_header_close" android:layout_width="@dimen/gw_header_icon_close_width" android:layout_height="@dimen/gw_header_icon_close_width" android:layout_marginEnd="@dimen/gw_header_icon_close_margin_end" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@+id/imageview_header_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/gw_header_bottom" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/header_content_main"/>
+</merge>

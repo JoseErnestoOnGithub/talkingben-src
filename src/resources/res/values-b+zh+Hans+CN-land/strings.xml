@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">该游戏包含应用内购买。您可以在\n应用程序商店中要求验证购买。</string>
+</resources>

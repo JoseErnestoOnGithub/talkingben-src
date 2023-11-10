@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.view.sharinglist.SharingListStatusView xmlns:android="http://schemas.android.com/apk/res/android" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/sharingListStatusIcon" android:layout_width="@dimen/sharing_list_icon_height" android:layout_height="@dimen/sharing_list_icon_height" android:layout_marginTop="@dimen/sharing_list_margin_top" android:src="@drawable/menu_sharing_button_icon_gallery_enabled" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:gravity="center" android:id="@+id/sharingListStatusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Postcard successfully saved to gallery." style="@style/sharingMenuDefaultTextStyle"/>
+        <ProgressBar android:id="@+id/sharingListStatusIndeterminateProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:indeterminate="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/sharingListStatusInvite" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sharing_list_margin">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/facebook_invite_text" android:singleLine="false" style="@style/sharingMenuDefaultTextStyle"/>
+            <TextView android:textSize="@dimen/recorder_menu_text_size" android:textStyle="bold" android:textColor="#ff333333" android:gravity="center" android:id="@+id/sharingListStatusInviteButton" android:background="@drawable/full_movie" android:paddingLeft="@dimen/sharing_list_margin" android:paddingRight="@dimen/sharing_list_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123/FRIEND" android:drawableRight="@drawable/sharing_list_coin_status" style="@style/sharingMenuDefaultTextStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.outfit7.talkingfriends.gui.view.sharinglist.SharingListStatusView>

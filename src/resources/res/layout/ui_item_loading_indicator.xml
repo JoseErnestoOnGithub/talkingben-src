@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/loading_indicator" android:paddingTop="@dimen/ui_item_loading_indicator_spacing" android:paddingBottom="@dimen/ui_item_loading_indicator_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_gravity="center_horizontal" android:visibility="visible" android:layout_width="@dimen/ui_item_loading_indicator_size" android:layout_height="@dimen/ui_item_loading_indicator_size" layout="@layout/ui_loading_indicator"/>
+</FrameLayout>

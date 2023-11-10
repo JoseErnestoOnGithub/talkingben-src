@@ -1,0 +1,6 @@
+com.smaato.sdk.banner.csm.BannerCsmModuleInterface
+com.smaato.sdk.interstitial.csm.InterstitialCsmModuleInterface
+com.smaato.sdk.rewarded.csm.RewardedCsmModuleInterface
+com.smaato.sdk.richmedia.framework.RichMediaModuleInterface
+com.smaato.sdk.video.framework.VideoModuleInterface
+com.smaato.sdk.image.framework.ImageModuleInterface

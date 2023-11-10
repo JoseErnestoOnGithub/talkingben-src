@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="button_font_padding">false</bool>
+    <bool name="china_build">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="custom_layout_notifications">false</bool>
+    <bool name="enable_sound_effects">false</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="felis_error_reporting_bugsnag_report_anr">true</bool>
+    <bool name="felis_error_reporting_bugsnag_report_ndk_crashes">true</bool>
+    <bool name="felis_error_reporting_bugsnag_report_unhandled_exceptions">true</bool>
+    <bool name="felis_inventory_smart_banner_enabled">false</bool>
+    <bool name="felis_limit_advertising_id_sharing">false</bool>
+    <bool name="felis_navigation_enable_restore">false</bool>
+    <bool name="felis_navigation_enable_screen_capture">false</bool>
+    <bool name="felis_skip_legacy_uid_providers">false</bool>
+    <bool name="felis_third_party_analytics_logging">false</bool>
+    <bool name="gpid_build">false</bool>
+    <bool name="header_text_center">false</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="is_portrait">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="o7_service_provider_app">false</bool>
+    <bool name="permission_explanation_on_every_deny">false</bool>
+    <bool name="promoNewsLandscapeMark">false</bool>
+    <bool name="rounded_header">false</bool>
+    <bool name="sab_enable_firebase_analytics">false</bool>
+    <bool name="shouldResizeIconToHalfOfSize">false</bool>
+    <bool name="useFloaters">false</bool>
+    <bool name="useInterstitials">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+    <bool name="xlargeLayout">false</bool>
+</resources>

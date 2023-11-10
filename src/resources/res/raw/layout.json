@@ -1,0 +1,116 @@
+[
+  {
+    "uT": "VIDEO",
+    "id": "videoId",
+    "pP": [
+      "NATIVE_AD",
+      "CP"
+    ],
+    "is": []
+  },
+  {
+    "uT": "BANNER",
+    "pP": [
+      "MINI_GAME"
+    ],
+    "is": [
+      {
+        "id": "spacetrails",
+        "i": 1
+      }
+    ]
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "MINI_GAME",
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "MINI_GAME",
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "MINI_GAME",
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  },
+  {
+    "uT": "ICONS",
+    "pP": [
+      "CP",
+      "APP"
+    ],
+    "mPs": 3,
+    "is": []
+  }
+]

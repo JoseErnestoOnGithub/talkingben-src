@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Dieses Spiel beinhaltet In-App-Käufe. Sie können eine Authentifizierung\nfür Käufe in den Einstellungen des App-Store anfordern.</string>
+</resources>

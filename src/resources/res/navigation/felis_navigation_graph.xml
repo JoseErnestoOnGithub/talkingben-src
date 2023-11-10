@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/felis_navigation_graph" app:startDestination="@+id/felis_navigation_start_destination">
+    <fragment android:name="com.outfit7.felis.navigation.impl.StartDestinationFragment" android:id="@+id/felis_navigation_start_destination"/>
+    <fragment android:name="com.outfit7.felis.navigation.impl.CustomDestinationFragment" android:id="@+id/felis_navigation_custom_destination"/>
+    <include app:graph="@navigation/felis_navigation_jw_video_gallery"/>
+    <include app:graph="@navigation/felis_navigation_testing_tools"/>
+    <include app:graph="@navigation/felis_navigation_ui"/>
+    <include app:graph="@navigation/felis_navigation_web_view_video_gallery"/>
+    <include app:graph="@navigation/felis_navigation_user_support"/>
+</navigation>

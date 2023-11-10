@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Эта игра включает покупки внутри приложения. Одобрение для совершения\nпокупок можно установить в настройках магазина приложений.</string>
+</resources>

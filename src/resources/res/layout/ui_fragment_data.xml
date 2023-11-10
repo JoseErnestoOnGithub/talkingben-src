@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/loading_indicator_layout" layout="@layout/ui_loading_indicator"/>
+    <TextView android:gravity="center" android:id="@+id/error_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_internet_connection" style="@style/UiErrorText"/>
+</FrameLayout>

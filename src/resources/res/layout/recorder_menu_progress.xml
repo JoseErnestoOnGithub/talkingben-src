@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+    <ImageView android:id="@+id/recorderMenuProgressIcon" android:layout_width="match_parent" android:layout_height="@dimen/recorder_menu_icon_height" android:src="@drawable/recorder_menu_button_icon_gallery"/>
+    <TextView android:id="@+id/recorderMenuProgressTitleTextView" android:layout_width="0dp" android:layout_height="0dp"/>
+    <com.outfit7.talkingfriends.gui.O7ProgressBar android:gravity="center" android:orientation="vertical" android:id="@+id/recorderMenuProgressProgressBar" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/recorder_menu_text_progress_size" android:gravity="center" android:id="@+id/o7ProgressBarText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DDownloading" android:minLines="2" android:layout_above="@+id/o7ProgressBarImage" style="@style/sharingMenuDefaultTextStyle"/>
+        <ImageView android:id="@+id/o7ProgressBarImage" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_bar1_layer1" android:layout_centerInParent="true"/>
+        <ProgressBar android:id="@+id/o7ProgressBarIndeterminateProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_alignTop="@+id/o7ProgressBarImage"/>
+    </com.outfit7.talkingfriends.gui.O7ProgressBar>
+</RelativeLayout>

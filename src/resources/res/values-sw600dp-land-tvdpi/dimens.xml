@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_button_close_margin_right">50dp</dimen>
+    <dimen name="grid_button_close_margin_top">4dp</dimen>
+    <dimen name="grid_gallery_height">410dp</dimen>
+    <dimen name="grid_gallery_margin_top">50dp</dimen>
+    <dimen name="news_button_height">70dp</dimen>
+    <dimen name="news_buttons_margin_bottom">120dp</dimen>
+    <dimen name="news_image_width_height">400dp</dimen>
+    <dimen name="news_margin_padding">50dp</dimen>
+    <dimen name="news_text_height">200dp</dimen>
+    <dimen name="news_title_height">112dp</dimen>
+    <dimen name="picker_buttons_container_margin">100dp</dimen>
+    <dimen name="picker_buttons_container_margin_bottom">60dp</dimen>
+    <dimen name="scaleFactor">1.8</dimen>
+    <dimen name="view_height">640dp</dimen>
+    <dimen name="view_width">920dp</dimen>
+</resources>

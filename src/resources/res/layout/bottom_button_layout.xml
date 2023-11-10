@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/middle_button_line_tmp" android:layout_alignParentEnd="true" layout="@layout/watch_ad_button_layout"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/middle_button_line_tmp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom_button_line_tmp">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/gamewallButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_gamewall" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <ImageView android:id="@+id/labButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/potion" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/bottom_button_line_tmp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="right" android:id="@+id/drinkButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drink"/>
+            <View android:layout_gravity="bottom" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="bottom" android:id="@+id/eatButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eat"/>
+            <View android:layout_gravity="bottom" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="bottom" android:id="@+id/burpButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/burp"/>
+            <View android:layout_gravity="bottom" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="bottom" android:id="@+id/phoneButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gumb_phone_on"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/lab_bottom_grid_layout"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

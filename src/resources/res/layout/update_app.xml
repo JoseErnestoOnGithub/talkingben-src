@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/updateBannerInnerLayout" android:background="@drawable/update_banner_background" android:padding="@dimen/update_app_banner_default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/update_app_banner_min_width">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/updateAppTextNewUpdateAvailable" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_marginTop="@dimen/update_app_banner_default_padding" android:text="@string/app_update_dialog_title" android:layout_weight="1" style="@style/updateBannerTitleText"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/updateAppTextUpdateNow" android:background="@drawable/update_button_background" android:padding="@dimen/update_app_banner_default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/update_app_banner_default_padding" android:layout_marginBottom="@dimen/update_app_banner_default_padding" android:text="@string/app_update_dialog_button" android:textAllCaps="true" style="@style/updateBannerButtonText"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/sharing_icons_share_to_text_size" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:paddingBottom="@dimen/sharing_icons_share_to_padding_bottom" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recorder_menu_share_to" style="@style/bigWhiteTextWithShadow"/>
+    <com.outfit7.talkingfriends.gui.view.sharinglist.SharingIconsView android:id="@+id/sharingIconsView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numColumns="@integer/imageSharingIconsNumOfIcons"/>
+</LinearLayout>

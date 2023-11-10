@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="@dimen/jw_playlist_item_width" android:layout_height="@dimen/jw_playlist_item_height" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_centerInParent="true" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/playlist_title_txt">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@+id/playlist_poster_img" android:padding="@dimen/jw_playlist_item_poster_stroke_padding" android:visibility="visible" android:contentDescription="@null" app:shapeAppearance="@style/JWRoundedImageView.Playlist" style="@style/JWImage.PlaylistItemPoster"/>
+            <TextView android:id="@+id/playlist_duration" android:padding="2dp" android:visibility="gone" android:layout_marginRight="10dp" android:layout_marginBottom="8dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/JWText.PlaylistItemDuration"/>
+            <TextView android:gravity="center" android:id="@+id/playlist_just_watched_txt" android:visibility="gone" android:layout_margin="@dimen/jw_playlist_item_poster_stroke_padding" android:text="@string/jwplayer_just_watched" style="@style/JWText.PlaylistItemWatched"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/playlist_title_txt" android:layout_marginTop="4dp" android:layout_alignParentBottom="true" style="@style/JWText.PlaylistItemTitle"/>
+    </RelativeLayout>
+</RelativeLayout>

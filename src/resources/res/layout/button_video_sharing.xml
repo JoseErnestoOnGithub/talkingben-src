@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/videoSharingGalleryButton" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/videoSharingGalleryButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/videonew" android:layout_centerInParent="true"/>
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@+id/videoSharingGalleryButtonBadge" android:background="@drawable/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99" android:layout_alignTop="@+id/videoSharingGalleryButtonImage" android:layout_alignRight="@+id/videoSharingGalleryButtonImage" style="@style/videoGalleryBadgeStyle"/>
+</RelativeLayout>

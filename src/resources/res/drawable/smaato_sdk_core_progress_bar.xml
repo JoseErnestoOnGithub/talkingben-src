@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <rotate android:fromDegrees="0" android:toDegrees="720">
+            <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="true" android:thickness="4dp">
+                <gradient android:startColor="#3e5f84" android:endColor="#519ef8" android:useLevel="false" android:angle="0" android:centerColor="#1e6ecc"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

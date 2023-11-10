@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/playlist_next_up_background_img" android:contentDescription="@null" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/JWImage.PlaylistBackgroundPoster"/>
+    <View app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/JWContainer.PlaylistBackgroundPosterGradient"/>
+    <ScrollView android:id="@+id/playlist_scroll_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:layout_constraintBottom_toTopOf="@+id/playlist_resume_play_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/jw_labels_primary" android:gravity="center" android:id="@+id/playlist_more_videos_label_txt" android:layout_width="match_parent" android:layout_margin="@dimen/jw_playlist_header_margin" android:text="@string/jwplayer_playlist" android:layout_alignParentTop="true" android:contentDescription="@null" android:layout_alignParentStart="true" style="@style/JWText.PlaylistHeader"/>
+                <com.jwplayer.ui.views.PlaylistFullscreenNextUpView android:id="@+id/playlist_fullscreen_nextup" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="45dp" android:layout_marginTop="30dp" android:layout_marginRight="45dp" android:layout_marginBottom="30dp" android:layout_below="@+id/playlist_more_videos_label_txt"/>
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/playlist_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/playlist_fullscreen_nextup" app:spanCount="3"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/playlist_recommended_container_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:layout_margin="@dimen/jw_playlist_header_margin" android:text="@string/jwplayer_recommendations" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" android:layout_alignParentStart="true" style="@style/JWText.PlaylistHeader"/>
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/playlist_recommended_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="44dp" android:layout_marginBottom="44dp" app:spanCount="3"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/playlist_resume_play_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/jw_playlist_vertical_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <TextView android:id="@+id/playlist_close_btn" android:text="@string/jwplayer_resume" android:drawablePadding="8dp" android:drawableStart="@drawable/ic_jw_playlist_resume" android:paddingStart="10dp" android:paddingEnd="14dp" app:drawableStartCompat="@drawable/ic_jw_playlist_resume" style="@style/JWText.PlaylistResume"/>
+        <TextView android:id="@+id/playlist_exit_fullscreen_cardview" android:visibility="gone" android:text="@string/jwplayer_exit_fullscreen" android:drawableStart="@drawable/ic_jw_playlist_exit_fullscreen" android:paddingStart="4dp" android:paddingEnd="14dp" android:layout_marginStart="30dp" app:drawableStartCompat="@drawable/ic_jw_playlist_exit_fullscreen" style="@style/JWText.PlaylistExitFullscreen"/>
+    </LinearLayout>
+</merge>

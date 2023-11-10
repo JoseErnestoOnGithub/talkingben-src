@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="offers_item_description_text_size">12dp</dimen>
+    <dimen name="wardrobe_buy_gc_item_get_gc_margin_bottom">6dp</dimen>
+    <dimen name="wardrobe_buy_gc_item_price_margin_top">7dp</dimen>
+    <dimen name="wardrobe_header_price_line_margin_left">12dp</dimen>
+</resources>

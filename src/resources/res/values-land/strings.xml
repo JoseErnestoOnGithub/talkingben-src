@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">This game contains in-app purchases. You can require\nauthentication for purchases in the app store settings.</string>
+    <string name="smaato_sdk_core_fullscreen_dimension">full_480x320</string>
+</resources>

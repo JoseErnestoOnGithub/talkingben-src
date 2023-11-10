@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/felis_navigation_web_view_video_gallery" app:startDestination="@+id/nav_web_view_video_gallery">
+    <fragment android:name="com.outfit7.felis.videogallery.webview.VideoGalleryWebViewFragment" android:id="@+id/nav_web_view_video_gallery">
+        <deepLink app:uri="@string/felis_navigation_web_view_videogallery_url"/>
+        <argument android:name="url" app:argType="string" app:nullable="false"/>
+        <argument android:name="sourceVendorId" app:argType="string" app:nullable="false"/>
+    </fragment>
+</navigation>

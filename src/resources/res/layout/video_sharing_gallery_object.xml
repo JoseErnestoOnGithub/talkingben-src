@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/video_gallery_thumbnail_height">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="@dimen/video_gallery_thumbnail_width" android:layout_height="@dimen/video_gallery_thumbnail_height">
+            <ProgressBar android:id="@+id/videoGalleryThumbnailProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/videoGalleryObjectThumbnail" android:background="#ff000000" android:visibility="gone" android:layout_width="@dimen/video_gallery_thumbnail_width" android:layout_height="@dimen/video_gallery_thumbnail_height" android:layout_margin="5dp" android:src="@android:drawable/ic_delete" android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/video_gallery_texts_margin_left" android:layout_marginRight="@dimen/video_gallery_texts_margin_right">
+            <TextView android:textSize="@dimen/video_gallery_text_title_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/videoGalleryObjectTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Video title so long that it spans over at least 2 lines (at least on small screens) so that we can see how this stuff works" android:maxLines="@integer/video_gallery_text_title_lines"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/videoGalleryObjectRateVideoLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/videoGalleryObjectButtonRateUp" android:layout_width="@dimen/video_gallery_rate_button_width" android:layout_height="@dimen/video_gallery_rate_button_height" android:src="@drawable/thumbs_up_button2x" android:scaleType="fitCenter"/>
+                    <ImageView android:id="@+id/videoGalleryObjectButtonRateDown" android:layout_width="@dimen/video_gallery_rate_button_width" android:layout_height="@dimen/video_gallery_rate_button_height" android:src="@drawable/thumbs_down_button2x"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/video_gallery_text_size" android:ellipsize="end" android:id="@+id/videoGalleryObjectDescription" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="0dp" android:text="Video description so long that it actually has to be broken in at least two lines if not more than that so that we can see how this stuff works with multiple lines and other stuff" android:maxLines="@integer/video_gallery_text_description_lines" android:layout_weight="1"/>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/videoGalleryObjectThumbUpIcon" android:paddingRight="5dp" android:paddingBottom="2dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mini_thumb"/>
+                <TextView android:textSize="@dimen/video_gallery_text_size" android:textStyle="bold" android:textColor="#20ff20" android:id="@+id/videoGalleryObjectThumbUpCount" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%"/>
+                <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/video_gallery_text_size" android:id="@+id/videoGalleryObjectViewsCount" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100,000,000 views"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/video_gallery_text_size" android:textStyle="bold" android:id="@+id/videoGalleryObjectAuthor" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="author"/>
+                <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/video_gallery_text_size" android:id="@+id/videoGalleryObjectDuration" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

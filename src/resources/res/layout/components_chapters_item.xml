@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/jw_menu_item_vertical_margin" android:paddingBottom="@dimen/jw_menu_item_vertical_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@+id/chapter_img" android:layout_marginEnd="@dimen/jw_menu_item_icon_right_margin" app:shapeAppearanceOverlay="@style/JWRoundedImageView.Chapters" style="@style/JWImage.ChaptersItemPoster"/>
+    <TextView android:id="@+id/chapter_title" android:layout_marginRight="@dimen/jw_menu_item_text_right_margin" style="@style/JWText.ChaptersItemTitle"/>
+    <TextView android:id="@+id/chapter_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JWText.ChaptersItemPosition"/>
+</LinearLayout>

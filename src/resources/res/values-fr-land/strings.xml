@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Ce jeu contient des achats intégrés. Vous pouvez demander une\nauthentification pour les achats dans les paramètres de la boutique d\'applis.</string>
+</resources>

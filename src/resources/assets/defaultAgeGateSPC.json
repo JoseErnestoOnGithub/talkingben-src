@@ -1,0 +1,21 @@
+{
+  "cMC": {
+    "sPC": [{
+      "id": "age_gate",
+      "p": {
+        "countryCode": "SI"
+      },
+      "c": "hardcoded",
+      "s": true,
+      "d": "Get information for user age",
+      "sId": "age-gate",
+      "t": "URL",
+      "e": false,
+      "tUC": false,
+      "dN": "Age gate",
+      "v": "1.0",
+      "dE": [
+      ]
+    }]
+  }
+}

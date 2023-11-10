@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.view.wardrobe.offers.view.WardrobeOfferItemView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:background="@drawable/offers_item_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/wardrobeOffersItemPromoImageLayout" android:background="@drawable/offers_image_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offers_item_text_layout_margin_left" android:layout_marginRight="@dimen/offers_item_text_layout_margin_right">
+        <ProgressBar android:id="@+id/wardrobeOffersItemPromoImageProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/wardrobeOffersItemPromoImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/wardrobeOffersItemTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Parallel kingdom AOT or some other title that goes in two lines or even more" style="@style/wardrobeOffersItemTitle"/>
+        <TextView android:id="@+id/wardrobeOffersItemDescription" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/wardrobeOffersItemDescription"/>
+        <RelativeLayout android:id="@+id/wardrobeOffersItemEarnView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/offers_item_earn_text_size" android:id="@+id/wardrobeOffersItemEarnText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/offers_item_earn_text_margin_right" android:text="@string/offers_earn_points" android:layout_alignBaseline="@+id/wardrobeOffersItemPoints" style="@style/blackTextWithShadow"/>
+            <TextView android:id="@+id/wardrobeOffersItemPoints" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" style="@style/wardrobeOffersItemPoints"/>
+        </RelativeLayout>
+    </LinearLayout>
+</com.outfit7.talkingfriends.gui.view.wardrobe.offers.view.WardrobeOfferItemView>

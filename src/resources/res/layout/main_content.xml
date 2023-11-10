@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mainContent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/scene"/>
+    </RelativeLayout>
+    <com.outfit7.talkingfriends.gui.BackgroundImageView android:id="@+id/background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <include android:visibility="gone" layout="@layout/soft_view_placeholder"/>
+    <com.outfit7.promo.news.ui.SoftViewPlaceholderView android:gravity="center" android:id="@+id/topSoftViewPlaceholder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.outfit7.promo.news.ui.SoftViewPlaceholderView android:gravity="center" android:id="@+id/newsSoftViewPlaceholder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/banner_view"/>
+</RelativeLayout>

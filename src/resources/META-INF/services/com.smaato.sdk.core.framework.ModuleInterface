@@ -1,0 +1,3 @@
+com.smaato.sdk.banner.framework.BannerModuleInterface
+com.smaato.sdk.interstitial.framework.InterstitialModuleInterface
+com.smaato.sdk.rewarded.framework.RewardedAdModuleInterface

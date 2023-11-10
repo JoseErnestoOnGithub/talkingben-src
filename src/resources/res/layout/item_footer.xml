@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@color/colorWhite" android:gravity="center" android:id="@+id/footerText" android:background="@color/colorBlack" android:paddingTop="56dp" android:paddingBottom="56dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>

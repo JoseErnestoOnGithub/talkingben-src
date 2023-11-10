@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/recorder_menu_icon_height" android:src="@drawable/recorder_menu_button_icon_gallery_large"/>
+    <TextView android:gravity="center" android:id="@+id/recorderSDCardConvertingTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/recorder_menu_video_saved_to_gallery" android:layout_centerInParent="true" style="@style/sharingMenuDefaultTextStyle"/>
+</RelativeLayout>

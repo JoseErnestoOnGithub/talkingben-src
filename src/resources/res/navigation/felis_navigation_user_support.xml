@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/felis_navigation_user_support" app:startDestination="@+id/nav_user_support_new_message">
+    <dialog android:name="com.outfit7.felis.usersupport.dialog.UserSupportDialogFragment" android:id="@+id/nav_user_support_new_message">
+        <deepLink app:uri="@string/felis_navigation_user_support_dialog_url"/>
+    </dialog>
+</navigation>

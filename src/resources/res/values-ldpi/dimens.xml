@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="food_buy_item_ad_label_helperr_margin_bottom">5dp</dimen>
+    <dimen name="grid_button_close_margin_right">3dp</dimen>
+    <dimen name="grid_button_close_margin_top">6dp</dimen>
+    <dimen name="padding_9patch_api_18_and_lower">6dp</dimen>
+    <dimen name="rate_container_padding">10dp</dimen>
+    <dimen name="style_big_text_size">20dp</dimen>
+    <dimen name="tube_counter_text_size">9dp</dimen>
+</resources>

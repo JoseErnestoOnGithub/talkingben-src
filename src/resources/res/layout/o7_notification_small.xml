@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/o7_notification_bg" android:background="@drawable/o7_notification_bg_one" android:layout_width="match_parent" android:layout_height="64dp">
+    <ImageView android:id="@+id/o7_notification_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@mipmap/rich_notification_icon_alias" android:adjustViewBounds="true"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15dp">
+        <TextView android:textColor="@color/rich_notifications_title_color" android:id="@+id/o7_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Compat.Notification.Title"/>
+        <TextView android:textColor="@color/rich_notifications_text_color" android:id="@+id/o7_notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Compat.Notification.Info"/>
+    </LinearLayout>
+</LinearLayout>

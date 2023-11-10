@@ -1,0 +1,198 @@
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: -0.55em;
+    text-shadow: rgba(255, 255, 255, 0.3) 0.05em 0.05em 2px;
+}
+.comment {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+}
+.outfit7about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232323;
+    font-size: 25px;
+    text-align: left;
+    padding: 5px 0px 3px 0px;
+    font-weight: bold;
+    text-shadow: none;
+    text-align: center;
+}
+.outfit7about a {
+    color: #248ac2;
+}
+.privacy {
+    margin-top: 4px;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: #232323;
+    background-color: transparent;
+    text-align: left;
+    text-shadow: rgba(255, 255, 255, 0.3) 0.05em 0.05em 2px;
+    margin: 12px;
+    /*	text-shadow: #293037 0.05em 0.1em 2px;*/
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0.5em;
+}
+ul li {
+    background-image: url("Check18.png");
+    background-position: 0 0.3em;
+    color: #232323;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    line-height: 1.2em;
+    padding: 0.2em 0 0.6em 1.6em;
+}
+ol {
+    list-style-type: square;
+    text-align: right;
+}
+
+p {
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	overflow-wrap: break-all;
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: -0.5em;
+		text-shadow: rgba(255, 255, 255, 0.3) 0.05em 0.05em 1px;
+	}
+	.comment {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		text-align: left;
+		padding: 5px 0px 5px 0px;
+	}
+	.outfit7about {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		text-align: left;
+		padding: 5px 0px 3px 0px;
+		font-weight: bold;
+		text-shadow: none;
+		text-align: center;
+		text-shadow: rgba(255, 255, 255, 0.3) 0 0 2px;
+	}
+	.outfit7about a {
+		color: #248ac2;
+	}
+	.privacy {
+		margin-top: 4px;
+	}
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color: rgb(35, 35, 35);
+		background-color: transparent;
+		text-align: left;
+		text-shadow: rgba(255, 255, 255, 0.3) 0 0 2px;
+		margin: 12px;
+		/*	text-shadow: #293037 0.05em 0.1em 2px;*/
+	}
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0.5em;
+	}
+	ul li {
+		background-image: url("Check18.png");
+		background-position: 0 0.3em;
+		background-size: 18px;
+		background-repeat: no-repeat;
+		line-height: 1.2em;
+		padding: 0.2em 0 0.6em 1.6em;
+	}
+	ol {
+		list-style-type: square;
+		text-align: right;
+	}
+}
+
+@media screen and (max-height: 320px) {
+	ul li {
+		background-image: url("Check9.png");
+		background-size: 9px;
+	}
+}
+
+/* Landscape configuration used in TBNN */
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+	h1 {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		text-align: left;
+		margin-bottom: -0.5em;
+		text-shadow: rgba(255, 255, 255, 0.3) 0.05em 0.05em 1px;
+	}
+	.comment {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		text-align: left;
+		padding: 5px 0px 5px 0px;
+	}
+	.outfit7about {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		text-align: left;
+		padding: 5px 0px 3px 0px;
+		font-weight: bold;
+		text-shadow: none;
+		text-align: center;
+		text-shadow: rgba(255, 255, 255, 0.3) 0 0 2px;
+	}
+	.outfit7about a {
+		color: #248ac2;
+	}
+	.privacy {
+		margin-top: 4px;
+	}
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color: rgb(35, 35, 35);
+		background-color: transparent;
+		text-align: left;
+		text-shadow: rgba(255, 255, 255, 0.3) 0 0 2px;
+		margin: 12px;
+		/*	text-shadow: #293037 0.05em 0.1em 2px;*/
+	}
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0.5em;
+	}
+	ul li {
+		background-image: url("Check18.png");
+		background-position: 0 0.3em;
+		background-size: 18px;
+		background-repeat: no-repeat;
+		line-height: 1.2em;
+		padding: 0.2em 0 0.6em 1.6em;
+	}
+	ol {
+		list-style-type: square;
+		text-align: right;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 320px) {
+	ul li {
+		background-image: url("Check9.png");
+		background-size: 9px;
+	}
+}

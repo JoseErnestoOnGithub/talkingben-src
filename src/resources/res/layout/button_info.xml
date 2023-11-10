@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.view.O7ButtonInfo xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/buttonInfo" android:paddingLeft="@dimen/button_info_video_share_padding_left_right" android:paddingRight="@dimen/button_info_video_share_padding_left_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_info"/>

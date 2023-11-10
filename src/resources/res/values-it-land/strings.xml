@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Questo gioco contiene acquisti in-app. È possibile richiedere l\'autenticazione\nper gli acquisti nelle impostazioni del negozio all\'interno del gioco.</string>
+</resources>

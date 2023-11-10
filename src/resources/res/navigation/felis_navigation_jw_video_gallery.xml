@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/felis_navigation_jw_video_gallery" app:startDestination="@+id/nav_jw_videogallery_showcase">
+    <deepLink app:uri="@string/felis_navigation_jw_videogallery_showcase_url"/>
+    <fragment android:name="com.outfit7.felis.videogallery.jw.ui.screen.showcase.ShowCaseFragment" android:id="@+id/nav_jw_videogallery_showcase">
+        <action android:id="@+id/action_nav_showcase_to_playlist" app:destination="@+id/nav_jw_videogallery_playlist"/>
+        <action android:id="@+id/action_nav_showcase_to_player" app:destination="@+id/nav_jw_videogallery_player"/>
+    </fragment>
+    <fragment android:name="com.outfit7.felis.videogallery.jw.ui.screen.playlist.PlaylistFragment" android:id="@+id/nav_jw_videogallery_playlist">
+        <deepLink app:uri="@string/felis_navigation_jw_videogallery_playlist_url"/>
+        <argument android:name="id" app:argType="string"/>
+        <action android:id="@+id/action_nav_playlist_to_player" app:destination="@+id/nav_jw_videogallery_player"/>
+    </fragment>
+    <fragment android:name="com.outfit7.felis.videogallery.jw.ui.screen.player.PlayerFragment" android:id="@+id/nav_jw_videogallery_player">
+        <deepLink app:uri="@string/felis_navigation_jw_videogallery_player_url"/>
+        <argument android:name="id" app:argType="string"/>
+    </fragment>
+</navigation>

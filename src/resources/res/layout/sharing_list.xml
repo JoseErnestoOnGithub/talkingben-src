@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.view.sharinglist.SharingListView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/sharingListBackgroundStyle">
+    <include android:id="@+id/sharingListStatusViewInclude" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/sharing_list_status"/>
+    <RelativeLayout android:id="@+id/sharingListMainView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/recorder_menu_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/sharing_title_line_left" android:scaleType="fitEnd" android:layout_weight="1"/>
+                <TextView android:text="@string/recorder_menu_share_to" style="@style/recorderMenuShareToText"/>
+                <ImageView android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/sharing_title_line_right" android:scaleType="fitStart" android:layout_weight="1"/>
+            </LinearLayout>
+            <ScrollView android:id="@+id/sharingListScrollView" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/sharingListButtonsList" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@+id/sharingListButtonClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_close" android:layout_alignParentRight="true"/>
+</com.outfit7.talkingfriends.gui.view.sharinglist.SharingListView>

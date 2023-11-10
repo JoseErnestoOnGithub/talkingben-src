@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="badge_margin">5dp</dimen>
+    <dimen name="food_buy_item_ad_label_helperr_margin_bottom">5dp</dimen>
+    <dimen name="grid_button_close_margin_right">5dp</dimen>
+    <dimen name="grid_button_close_margin_top">11dp</dimen>
+    <dimen name="gw_font_size_item_text">10sp</dimen>
+    <dimen name="gw_font_size_reward">13sp</dimen>
+    <dimen name="gw_font_size_reward_amount">21sp</dimen>
+    <dimen name="gw_font_size_reward_dialog">25sp</dimen>
+    <dimen name="gw_font_size_video_title">25sp</dimen>
+    <dimen name="gw_header_icon_close_width">30dp</dimen>
+    <dimen name="gw_header_title_text_size">32sp</dimen>
+    <dimen name="gw_tile_padding">5px</dimen>
+    <dimen name="infoWebBigButtonsPaddingTopBottom">0dp</dimen>
+    <dimen name="infoWebBigButtonsTextSize">22dp</dimen>
+    <dimen name="infoWebButtonsTextSize">20dp</dimen>
+    <dimen name="infoWebLinksPadding">5dp</dimen>
+    <dimen name="main_screen_watch_ad_label_height">32dp</dimen>
+    <dimen name="main_screen_watch_ad_label_max_text_size">8sp</dimen>
+    <dimen name="main_screen_watch_ad_label_side_margin">10dp</dimen>
+    <dimen name="notification_amount_text_size">35dp</dimen>
+    <dimen name="notification_free_text_size">25dp</dimen>
+    <dimen name="padding_9patch_api_18_and_lower">11dp</dimen>
+    <dimen name="permissionDialogWidth">300dp</dimen>
+    <dimen name="rate_close_margin">-7dp</dimen>
+    <dimen name="rate_container_edittext_padding">5dp</dimen>
+    <dimen name="rate_container_margin">15dp</dimen>
+    <dimen name="rate_container_padding">20dp</dimen>
+    <dimen name="recorder_button_text_margin_bottom">3dp</dimen>
+    <dimen name="recorder_button_text_size">15dp</dimen>
+    <dimen name="recorder_menu_button_end_margin">72dp</dimen>
+    <dimen name="recorder_menu_button_start_margin">32dp</dimen>
+    <dimen name="update_app_icon_padding_left_right">6.5dp</dimen>
+    <dimen name="update_app_text_update_available_size">17dp</dimen>
+</resources>

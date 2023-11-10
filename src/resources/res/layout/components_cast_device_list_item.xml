@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/jw_menu_item_vertical_margin" android:paddingBottom="@dimen/jw_menu_item_vertical_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_marginRight="@dimen/jw_menu_item_icon_right_margin" android:src="@drawable/ic_jw_cast_off" app:srcCompat="@drawable/ic_jw_cast_off" style="@style/JWIcon.CastItem"/>
+    <TextView android:id="@+id/device_name_list_item" style="@style/JWText.CastItem"/>
+</LinearLayout>

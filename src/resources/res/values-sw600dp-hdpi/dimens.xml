@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gw_external_cta_text_size">26sp</dimen>
+    <dimen name="gw_external_title">20sp</dimen>
+    <dimen name="gw_font_size_item_text">18sp</dimen>
+    <dimen name="gw_font_size_reward">30sp</dimen>
+    <dimen name="gw_font_size_reward_dialog">35sp</dimen>
+    <dimen name="gw_font_size_video_title">35sp</dimen>
+    <dimen name="gw_header_icon_close_width">50dp</dimen>
+    <dimen name="gw_header_title_text_size">52sp</dimen>
+    <dimen name="gw_tile_padding">5px</dimen>
+    <dimen name="gw_video_cta_ext_left">60dp</dimen>
+    <dimen name="rate_close_margin">-10dp</dimen>
+    <dimen name="rate_container_edittext_padding">10dp</dimen>
+    <dimen name="rate_container_margin">15dp</dimen>
+    <dimen name="rate_container_padding">27dp</dimen>
+</resources>

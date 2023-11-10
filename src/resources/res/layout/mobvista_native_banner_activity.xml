@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#f0f1f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/mobvista_banner_rl_root" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="50dp">
+        <ImageView android:id="@+id/mobvista_banner_iv_icon" android:layout_width="50dp" android:layout_height="50dp"/>
+        <TextView android:textSize="15sp" android:typeface="sans" android:textColor="#ffffff" android:gravity="center" android:id="@+id/mobvista_banner_tv_cta" android:background="@drawable/mobvista_native_banner_cta" android:layout_width="82dp" android:layout_height="30dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/mobvista_banner_tv_cta" android:layout_toRightOf="@+id/mobvista_banner_iv_icon">
+            <TextView android:textSize="12sp" android:textColor="#333333" android:ellipsize="end" android:id="@+id/mobvista_banner_tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="9sp" android:textColor="#5f5f5f" android:ellipsize="end" android:id="@+id/mobvista_banner_tv_app_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="2"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/mobvista_banner_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge"/>
+</RelativeLayout>

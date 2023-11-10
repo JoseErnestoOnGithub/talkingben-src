@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_screen_iap_warning">Bu oyun, uygulama içi satın alımlar içerir. Uygulama mağazası\nayarlarından satın alımlar için kimlik doğrulama isteyebilirsin.</string>
+</resources>

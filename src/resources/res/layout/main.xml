@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.outfit7.talkingfriends.gui.O7RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/topLevel" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <SurfaceView android:id="@+id/surface" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub" android:layout="@layout/main_content" android:inflatedId="@+id/inflatedStub" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/splash_view_wrapper"/>
+    <FrameLayout android:id="@+id/navigation_placeholder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.outfit7.talkingfriends.gui.O7RelativeLayout>
